@@ -16,10 +16,12 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "LSApplicationQueriesSchemes": [
-        "instagram",
-        "instagram-stories"
-      ]
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": [
+          "instagram",
+          "instagram-stories"
+        ]
+      }
     },
     "android": {
       "adaptiveIcon": {
